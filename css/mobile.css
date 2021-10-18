@@ -1,0 +1,27 @@
+@media screen and (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 30%;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    position: static;
+  }
+
+  #features {
+    position: static;
+  }
+
+  #press img {
+    margin-bottom: 50px;
+  }
+
+  #pricing .card {
+    margin-bottom: 50px;
+  }
+}
