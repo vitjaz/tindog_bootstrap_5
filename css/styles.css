@@ -8,6 +8,13 @@ body {
 
 /* Headings */
 
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 h2 {
   font-weight: bold;
   font-size: 3rem;
@@ -52,13 +59,6 @@ p {
 #title {
   background: #ff4c68;
   color: #fff;
-}
-
-#title h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
 }
 
 .title-image {
