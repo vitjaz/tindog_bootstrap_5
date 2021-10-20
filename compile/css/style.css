@@ -1,0 +1,161 @@
+/* line 4, scss/_utilities.scss */
+body {
+  font-family: "Montserrat"; }
+
+/* line 10, scss/_utilities.scss */
+.container-fluid {
+  padding: 3% 15%; }
+
+/* line 15, scss/_utilities.scss */
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5; }
+
+/* line 21, scss/_utilities.scss */
+h2 {
+  font-weight: bold;
+  font-size: 3rem; }
+
+/* line 26, scss/_utilities.scss */
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem; }
+
+/* line 31, scss/_utilities.scss */
+p {
+  color: #8f8f8f; }
+
+/* line 36, scss/_utilities.scss */
+.download-button {
+  margin: 5% 3% 5% 0; }
+
+/* line 5, scss/style.scss */
+.navbar {
+  padding: 0 0 4.5rem; }
+  /* line 8, scss/style.scss */
+  .navbar .container-fluid {
+    padding: 0; }
+  /* line 12, scss/style.scss */
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold; }
+
+/* line 20, scss/style.scss */
+.nav-item {
+  padding: 0 18px; }
+
+/* line 24, scss/style.scss */
+.nav-link {
+  font-weight: 300;
+  font-size: 1.2rem; }
+
+/* line 32, scss/style.scss */
+#title {
+  background: #ff4c68;
+  color: #fff; }
+
+/* line 37, scss/style.scss */
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  position: absolute; }
+
+/* line 49, scss/style.scss */
+#features {
+  padding: 5% 0;
+  background: #fff;
+  position: relative; }
+
+/* line 55, scss/style.scss */
+.features-item i {
+  color: #ef8172;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  margin-bottom: 1rem; }
+  /* line 64, scss/style.scss */
+  .features-item i:hover {
+    color: #ff4c68; }
+
+/* line 71, scss/style.scss */
+#testimonials {
+  background: #ef8172;
+  color: #fff; }
+
+/* line 77, scss/style.scss */
+.testimonial-text {
+  margin-bottom: 2rem; }
+
+/* line 81, scss/style.scss */
+.testimonial-image {
+  width: 120px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+/* line 91, scss/style.scss */
+.carousel-item {
+  padding: 3% 15%; }
+
+/* line 97, scss/style.scss */
+#press {
+  background: #ef8172; }
+  /* line 100, scss/style.scss */
+  #press img {
+    width: 150px; }
+
+/* line 108, scss/style.scss */
+#pricing h2 {
+  margin-bottom: 1.5rem; }
+
+/* line 111, scss/style.scss */
+#pricing p {
+  margin-bottom: 1.5rem; }
+
+/* line 115, scss/style.scss */
+#pricing .card {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s; }
+  /* line 122, scss/style.scss */
+  #pricing .card:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05); }
+
+/* line 134, scss/style.scss */
+#cta {
+  background: #ff4c68;
+  color: #fff; }
+  /* line 138, scss/style.scss */
+  #cta h3 {
+    font-size: 3rem; }
+
+/* line 145, scss/style.scss */
+#footer {
+  background: #fff; }
+  /* line 148, scss/style.scss */
+  #footer i {
+    color: #1f1e1e;
+    transition: all, 0.2s;
+    -webkit-transition: all, 0.2s;
+    -moz-transition: all, 0.2s;
+    -ms-transition: all, 0.2s;
+    -o-transition: all, 0.2s; }
+    /* line 156, scss/style.scss */
+    #footer i:hover {
+      color: #ff4c68; }

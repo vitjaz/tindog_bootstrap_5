@@ -4,12 +4,14 @@
   "description": "TinDog Starting Files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o compile/css -recursive"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^10.3.7",
+    "node-sass": "^6.0.1",
     "postcss": "^8.3.9"
   }
 }

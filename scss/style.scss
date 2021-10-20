@@ -1,0 +1,160 @@
+@import "variables.scss";
+@import "utilities.scss";
+
+// navbar
+.navbar {
+  padding: 0 0 4.5rem;
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  &-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+
+.nav {
+  &-item {
+    padding: 0 18px;
+  }
+
+  &-link {
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+}
+
+// title
+
+#title {
+  background: $primary-color;
+  color: $white-color;
+}
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  position: absolute;
+}
+
+// features
+
+#features {
+  padding: 5% 0;
+  background: $white-color;
+  position: relative;
+}
+
+.features-item i {
+  color: $secondary-color;
+  transition: all $transition-time;
+  -webkit-transition: all $transition-time;
+  -moz-transition: all $transition-time;
+  -ms-transition: all $transition-time;
+  -o-transition: all $transition-time;
+  margin-bottom: 1rem;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+// testimonials
+
+#testimonials {
+  background: $secondary-color;
+  color: $white-color;
+}
+
+.testimonial {
+  &-text {
+    margin-bottom: 2rem;
+  }
+
+  &-image {
+    width: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+// press
+
+#press {
+  background: $secondary-color;
+
+  img {
+    width: 150px;
+  }
+}
+
+// pricing
+
+#pricing {
+  h2 {
+    margin-bottom: 1.5rem;
+  }
+  p {
+    margin-bottom: 1.5rem;
+  }
+
+  .card {
+    transition: all $transition-time;
+    -webkit-transition: all $transition-time;
+    -moz-transition: all $transition-time;
+    -ms-transition: all $transition-time;
+    -o-transition: all $transition-time;
+
+    &:hover {
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+    }
+  }
+}
+
+// cta
+
+#cta {
+  background: $primary-color;
+  color: $white-color;
+
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+// footer
+
+#footer {
+  background: $white-color;
+
+  i {
+    color: rgb(31, 30, 30);
+    transition: all, $transition-time;
+    -webkit-transition: all, $transition-time;
+    -moz-transition: all, $transition-time;
+    -ms-transition: all, $transition-time;
+    -o-transition: all, $transition-time;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}

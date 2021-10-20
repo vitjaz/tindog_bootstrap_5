@@ -1,0 +1,38 @@
+@import "variables.scss";
+
+// Main font
+body {
+  font-family: "Montserrat";
+}
+
+// Main container
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+// Heading and text
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: $p-text;
+}
+
+// Buttons
+.download-button {
+  margin: 5% 3% 5% 0;
+}

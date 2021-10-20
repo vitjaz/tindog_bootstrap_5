@@ -1,0 +1,42 @@
+@media screen and (max-width: 992px) {
+  /* line 2, scss/mobile.scss */
+  .navbar {
+    padding: 0 0 0.5rem; }
+  /* line 6, scss/mobile.scss */
+  #title {
+    text-align: center; }
+    /* line 9, scss/mobile.scss */
+    #title .title-image {
+      width: 50%;
+      transform: rotate(0);
+      -webkit-transform: rotate(0);
+      -moz-transform: rotate(0);
+      -ms-transform: rotate(0);
+      -o-transform: rotate(0);
+      position: static;
+      margin: 1rem 0; }
+  /* line 21, scss/mobile.scss */
+  #features {
+    position: static; }
+  /* line 26, scss/mobile.scss */
+  #press img {
+    margin-bottom: 50px; }
+  /* line 32, scss/mobile.scss */
+  #pricing .card {
+    margin-bottom: 50px; }
+  /* line 36, scss/mobile.scss */
+  #pricing h2 {
+    margin-top: 1.5rem; } }
+
+@media screen and (max-width: 1204px) {
+  /* line 43, scss/mobile.scss */
+  h1 {
+    font-size: 2.8rem; }
+  /* line 47, scss/mobile.scss */
+  h2 {
+    font-weight: bold;
+    font-size: 2rem; }
+  /* line 52, scss/mobile.scss */
+  h3 {
+    font-weight: bold;
+    font-size: 1rem; } }
